@@ -74,7 +74,7 @@ Simulasi fitur chat sederhana dengan pengguna lain.
 | `Navigator`       | Navigasi antar halaman dengan argumen                                    |
 
 ## Struktur Navigasi
-ProfileCard
+```ProfileCard
 ├── MyProfilePage (Profil Saya)
 │ └── ChatListPage (jika ada favorit)
 ├── FavoriteListPage
