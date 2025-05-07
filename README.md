@@ -73,8 +73,9 @@ Simulasi fitur chat sederhana dengan pengguna lain.
 | `Stack`           | Untuk menampilkan notifikasi sementara (misalnya "Favorit Ditambahkan!") |
 | `Navigator`       | Navigasi antar halaman dengan argumen                                    |
 
-```## Struktur Navigasi
-ProfileCard
+
+## Struktur Navigasi
+```ProfileCard
 ├── MyProfilePage (Profil Saya)
 │ └── ChatListPage (jika ada favorit)
 ├── FavoriteListPage
