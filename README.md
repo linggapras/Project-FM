@@ -79,7 +79,7 @@ ProfileCard
 │ └── ChatListPage (jika ada favorit)
 ├── FavoriteListPage
 │ └── ChatListPage (per pengguna favorit)
-└── ChatListPage (langsung dari Favorite atau Profil)
+└── ChatListPage (langsung dari Favorite atau Profil)```
 
 
 ## Catatan
