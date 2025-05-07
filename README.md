@@ -73,16 +73,20 @@ Simulasi fitur chat sederhana dengan pengguna lain.
 | `Stack`           | Untuk menampilkan notifikasi sementara (misalnya "Favorit Ditambahkan!") |
 | `Navigator`       | Navigasi antar halaman dengan argumen                                    |
 
-## Struktur Navigasi
-```ProfileCard
+```## Struktur Navigasi
+ProfileCard
 ├── MyProfilePage (Profil Saya)
 │ └── ChatListPage (jika ada favorit)
 ├── FavoriteListPage
 │ └── ChatListPage (per pengguna favorit)
-└── ChatListPage (langsung dari Favorite atau Profil)
+└── ChatListPage (langsung dari Favorite atau Profil)```
 
-
+```
 ## Catatan
 
-1. Data profil dan pesan disimpan secara lokal (tidak ada backend).
-2. Desain masih bersifat dasar dan dapat dikembangkan lebih lanjut.
+1. Data profil dan pesan disimpan secara lokal (tidak ada backend).  
+2. Desain masih bersifat dasar dan dapat dikembangkan lebih lanjut
+
+
+
+
