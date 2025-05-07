@@ -77,9 +77,9 @@ Simulasi fitur chat sederhana dengan pengguna lain.
 
 ProfileCard
 ├── MyProfilePage (Profil Saya)
-│ └── ChatListPage (jika ada favorit)
+│   └── ChatListPage (jika ada favorit)
 ├── FavoriteListPage
-│ └── ChatListPage (per pengguna favorit)
+│   └── ChatListPage (per pengguna favorit)
 └── ChatListPage (langsung dari Favorite atau Profil)
 
 
