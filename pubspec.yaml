@@ -1,0 +1,32 @@
+name: project1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.13.1" # Tambahkan dependensi ini
+
+flutter_launcher_icons:
+  android: "launcher_icon" # Nama file drawable Android (tanpa ekstensi)
+  ios: true # Aktifkan pembuatan ikon iOS
+  image_path: "assets/icons/rawr.PNG" # Path ke file logo Anda
+  # adaptive_icon_background: "#ffffff" # Optional: Warna latar belakang untuk ikon adaptif Android
+  # adaptive_icon_foreground: "assets/icons/ken_foreground.png" # Optional: Gambar foreground untuk ikon adaptif Android
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
